@@ -20,15 +20,19 @@ Feel free to send a PR or an issue.
 
 | Note | Model       | Paper                                                        | Conference | paper link                                     | code link                                                    |
 | ---- | ----------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
+|  | alignDRAW | Generating Images from Captions with Attention | ICLR 2016 | [1511.02793](https://arxiv.org/pdf/1511.02793v2.pdf) | [emansim/text2image](https://github.com/emansim/text2image) |
 |      | GAN-INT-CLS | Generative Adversarial Text to Image Synthesis               | ICML 2016  | [1605.05396](https://arxiv.org/abs/1605.05396) | [reedscot/icml2016](https://github.com/reedscot/icml2016)    |
 |      | StackGAN    | StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks | ICCV 2017  | [1612.03242](https://arxiv.org/abs/1612.03242) | [hanzhanggit/StackGAN](https://github.com/hanzhanggit/StackGAN) |
 |      | StackGAN++  | StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks | TPAMI 2018 | [1710.10916](https://arxiv.org/abs/1710.10916) | [hanzhanggit/StackGAN-v2](https://github.com/hanzhanggit/StackGAN-v2) |
 |      | AttnGAN     | AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks | CVPR 2018  | [1711.10485](https://arxiv.org/abs/1711.10485) | [taoxugit/AttnGAN](https://github.com/taoxugit/AttnGAN)      |
 |      | HD-GAN     | Photographic Text-to-Image Synthesis with a Hierarchically-nested Adversarial Network | CVPR 2018  | [1802.09178](https://arxiv.org/pdf/1802.09178.pdf) | [ypxie/HDGan](https://github.com/ypxie/HDGan)      |
+| | MC-GAN | MC-GAN: Multi-conditional Generative Adversarial Network for Image Synthesis | BMVC 2018 | [1805.01123](https://arxiv.org/pdf/1805.01123v5.pdf) | [HYOJINPARK/MC_GAN](https://github.com/HYOJINPARK/MC_GAN) |
+| |  | Turbo Learning for CaptionBot and DrawingBot | NeurIPS 2018 | [nips](http://papers.nips.cc/paper/7881-turbo-learning-for-captionbot-and-drawingbot.pdf) |  |
+| | MMVR | Semantically Invariant Text-to-Image Generation | ICIP 2018 | [1809.10274](https://arxiv.org/abs/1809.10274v1) |  |
 |      | StoryGAN    | StoryGAN: A Sequential Conditional GAN for Story Visualization | CVPR 2019 | [1812.02784](https://arxiv.org/abs/1812.02784) |  [yitong91/StoryGAN](https://github.com/yitong91/StoryGAN)    |
-|      | MirrorGAN   | MirrorGAN: Learning Text-to-image Generation by Redescription | CVPR 2019  | [1903.05854](https://arxiv.org/abs/1903.05854) |
-|      | DM-GAN   | DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis | CVPR 2019  | [1904.01310](https://arxiv.org/abs/1904.01310) |
-|      | SD-GAN   | Semantics Disentangling for Text-to-Image Generation | CVPR 2019  | [1904.01480](https://arxiv.org/abs/1904.01480) | 
+|      | MirrorGAN   | MirrorGAN: Learning Text-to-image Generation by Redescription | CVPR 2019  | [1903.05854](https://arxiv.org/abs/1903.05854) ||
+|      | DM-GAN   | DM-GAN: Dynamic Memory Generative Adversarial Networks for Text-to-Image Synthesis | CVPR 2019  | [1904.01310](https://arxiv.org/abs/1904.01310) ||
+|      | SD-GAN   | Semantics Disentangling for Text-to-Image Generation | CVPR 2019  | [1904.01480](https://arxiv.org/abs/1904.01480) ||
 
 
 ## scene graph/layout to image
@@ -48,11 +52,12 @@ Feel free to send a PR or an issue.
 
 ## dialog to image
 
-| Note | Model       | Paper                                                        | Conference | paper link                                     | code link                                                    |
-| ---- | ----------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
-|      | CoDraw      | CoDraw: Visual Dialog for Collaborative Drawing              |            | [1712.05558](https://arxiv.org/abs/1712.05558) | [CoDraw dataset](https://github.com/facebookresearch/CoDraw) |
-|      | ChatPainter | ChatPainter: Improving Text to Image Generation using Dialogue | ICLRW 2018 | [1802.08216](https://arxiv.org/abs/1802.08216) |                                                              |
-|      |             | Keep Drawing It: Iterative language-based image generation and editing | NIPSW 2018 | [1811.09845](https://arxiv.org/abs/1811.09845) | [CLEVR dataset](https://github.com/facebookresearch/clevr-dataset-gen) |
-|      | Chat-crowd  | Chat-crowd: A Dialog-based Platform for Visual Layout Composition |            | [1812.04081](https://arxiv.org/abs/1812.04081) | [uvavision/chat-crowd](https://github.com/uvavision/chat-crowd) |
-|      | SeqAttnGAN  | Sequential Attention GAN for Interactive Image Editing via Dialogue |            | [1812.08352](https://arxiv.org/abs/1812.08352) |                                                              |
+| Note | Model       | Paper                                                        | Conference | paper link                                           | code link                                                    |
+| ---- | ----------- | ------------------------------------------------------------ | ---------- | ---------------------------------------------------- | ------------------------------------------------------------ |
+|      | CoDraw      | CoDraw: Visual Dialog for Collaborative Drawing              |            | [1712.05558](https://arxiv.org/abs/1712.05558)       | [CoDraw dataset](https://github.com/facebookresearch/CoDraw) |
+|      | ChatPainter | ChatPainter: Improving Text to Image Generation using Dialogue | ICLRW 2018 | [1802.08216](https://arxiv.org/abs/1802.08216)       |                                                              |
+|      |             | Keep Drawing It: Iterative language-based image generation and editing | NIPSW 2018 | [1811.09845](https://arxiv.org/abs/1811.09845)       | [CLEVR dataset](https://github.com/facebookresearch/clevr-dataset-gen) |
+|      | Chat-crowd  | Chat-crowd: A Dialog-based Platform for Visual Layout Composition |            | [1812.04081](https://arxiv.org/abs/1812.04081)       | [uvavision/chat-crowd](https://github.com/uvavision/chat-crowd) |
+|      | SeqAttnGAN  | Sequential Attention GAN for Interactive Image Editing via Dialogue |            | [1812.08352](https://arxiv.org/abs/1812.08352)       |                                                              |
+|      |             | Tell, Draw, and Repeat: Generating and modifying images based on continual linguistic instruction |            | [1811.09845](https://arxiv.org/pdf/1811.09845v2.pdf) | [Maluuba/datasets](https://github.com/Maluuba/GeNeVA_datasets) |
 
